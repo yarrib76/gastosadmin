@@ -1,6 +1,6 @@
 <?php
 
-use gastosadmin\Models\Items;
+use GastosAdmin\Models\Items;
 use Illuminate\Database\Seeder;
 
 class ItemsTableSeeder extends Seeder
