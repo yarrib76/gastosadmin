@@ -20,4 +20,5 @@ Route::group(['prefix' => 'api'],
         Route::get('/creargasto', 'Api\GastosController@create');
         Route::get('/borrargasto', 'Api\GastosController@delete');
         Route::get('/consultagastos', 'Api\ReporteController@query');
+        Route::get('/listaitems', 'Api\ListaItemsController@query');
     });
