@@ -15,6 +15,7 @@ class GastosController extends Controller
             'importe' => Input::get('importe'),
             'observaciones' => Input::get('observaciones')
         ]);
+        return 1;
     }
 
     public function delete(){
