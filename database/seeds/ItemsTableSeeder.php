@@ -19,19 +19,10 @@ class ItemsTableSeeder extends Seeder
     private function crearItems()
     {
         Items::create([
+            'nombre' => 'Otros'
+        ]);
+        Items::create([
             'nombre' => 'Supermercado'
-        ]);
-        Items::create([
-            'nombre' => 'Impuestos'
-        ]);
-        Items::create([
-            'nombre' => 'Deportes'
-        ]);
-        Items::create([
-            'nombre' => 'Escuela'
-        ]);
-        Items::create([
-            'nombre' => 'Particular'
         ]);
         Items::create([
             'nombre' => 'Remis'
@@ -43,13 +34,25 @@ class ItemsTableSeeder extends Seeder
             'nombre' => 'Limpieza'
         ]);
         Items::create([
+            'nombre' => 'Deportes'
+        ]);
+        Items::create([
+            'nombre' => 'Escuela'
+        ]);
+        Items::create([
+            'nombre' => 'Particular'
+        ]);
+        Items::create([
             'nombre' => 'Seguros'
         ]);
         Items::create([
             'nombre' => 'Entretenimiento'
         ]);
         Items::create([
-            'nombre' => 'Otros'
+            'nombre' => 'Indumentaria'
+        ]);
+        Items::create([
+            'nombre' => 'Impuestos'
         ]);
     }
 }
