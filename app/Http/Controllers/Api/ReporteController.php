@@ -13,7 +13,10 @@ use Illuminate\Support\Facades\Response;
 class ReporteController extends Controller
 {
     public function query(){
-        $gastos = RegistroGastos::all()->load('items');
+        $anio = Input::get('anio');
+        $mes = Input::get('mes');
+        $gastos = RegistroGastos::where('fecha', '>=' , $anio . '/' . $mes . '/01')
+            ->where('fecha', '<=', $anio . '/'. $mes . '/31')->get();
         $gastos = $this->formateoDatos($gastos);
         return Response::json($gastos);
     }
@@ -35,7 +38,7 @@ class ReporteController extends Controller
         $respuesta = [];
         $x = 0;
         foreach ($gastos as $gasto){
-            $respuesta[$x] = ['id' => $gasto->id,'item' => $gasto['items']->nombre,
+            $respuesta[$x] = ['id' => $gasto->id,'item' => $gasto->load('items')['items']->nombre,
                 'importe' => $gasto->importe, 'observaciones' => $gasto->observaciones,
                 'fecha' => date('d-m-Y',strtotime($gasto->fecha))];
             $x++;
