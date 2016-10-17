@@ -18,7 +18,8 @@ class CreateRegistroGastosTable extends Migration
             $table->double('importe');
             $table->string('observaciones');
             $table->integer('item_id')->unsigned();
-            $table->foreign('item_id')->references('id')->on('items')->onDelete('cascade');;
+            $table->foreign('item_id')->references('id')->on('items')->onDelete('cascade');
+            $table->date('fecha');
         });
     }
 

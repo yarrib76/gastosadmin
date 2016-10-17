@@ -13,7 +13,8 @@ class GastosController extends Controller
         RegistroGastos::create([
             'item_id' => Input::get('item_id'),
             'importe' => Input::get('importe'),
-            'observaciones' => Input::get('observaciones')
+            'observaciones' => Input::get('observaciones'),
+            'fecha' => Input::get('fecha')
         ]);
         return 1;
     }
