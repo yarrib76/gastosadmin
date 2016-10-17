@@ -20,7 +20,6 @@ class ReporteController extends Controller
 
     public function queryMenAnual(){
         $anio = Input::get('anio');
-        $anio = '2016';
         $mesesPagos = [];
         $gastos = RegistroGastos::selectRaw('DATE_FORMAT(fecha, "%m-%Y") AS Month,sum(importe) as sum, fecha')
             ->where('fecha', '>=' , $anio . '/01/01')
