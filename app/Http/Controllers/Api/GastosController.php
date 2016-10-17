@@ -16,7 +16,7 @@ class GastosController extends Controller
             'observaciones' => Input::get('observaciones'),
             'fecha' => Input::get('fecha')
         ]);
-        return 1;
+        return ['codigo' => 1];
     }
 
     public function delete(){
