@@ -24,7 +24,7 @@ class ReporteController extends Controller
         foreach ($gastos as $gasto){
             $respuesta[$x] = ['id' => $gasto->id,'item' => $gasto['items']->nombre,
                 'importe' => $gasto->importe, 'observaciones' => $gasto->observaciones,
-                'fecha' => date('d-m-Y',strtotime($gasto->created_at))];
+                'fecha' => date('d-m-Y',strtotime($gasto->fecha))];
             $x++;
         }
         return $respuesta;
