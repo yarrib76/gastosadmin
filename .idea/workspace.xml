@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1c141c5-852e-40bd-8242-d92417fb6d49" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Items.php" afterPath="$PROJECT_DIR$/app/Models/Items.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/ItemsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/ItemsTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ListaItemsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ListaItemsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/RegistroGastos.php" afterPath="$PROJECT_DIR$/app/Models/RegistroGastos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gastosadmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,11 +62,12 @@
       <file leaf-file-name="Items.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Models/Items.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42424244" vertical-offset="0" max-vertical-offset="627">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.54545456" vertical-offset="0" max-vertical-offset="627">
+              <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
               <folding>
                 <element signature="e#38#77#0#PHP" expanded="true" />
-                <marker date="1476886661000" expanded="true" signature="387:558" placeholder="SELECT item_..registro_gastos..." />
+                <marker date="1476887367000" expanded="true" signature="387:558" placeholder="SELECT item_..registro_gastos..." />
+                <marker date="1476887367000" expanded="true" signature="387:574" placeholder="SELECT item_..registro_gastos..." />
               </folding>
             </state>
           </provider>
@@ -585,11 +582,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Items.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42424244" vertical-offset="0" max-vertical-offset="627">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.54545456" vertical-offset="0" max-vertical-offset="627">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
           <folding>
             <element signature="e#38#77#0#PHP" expanded="true" />
-            <marker date="1476886661000" expanded="true" signature="387:558" placeholder="SELECT item_..registro_gastos..." />
+            <marker date="1476887367000" expanded="true" signature="387:558" placeholder="SELECT item_..registro_gastos..." />
+            <marker date="1476887367000" expanded="true" signature="387:574" placeholder="SELECT item_..registro_gastos..." />
           </folding>
         </state>
       </provider>
