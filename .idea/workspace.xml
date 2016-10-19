@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c141c5-852e-40bd-8242-d92417fb6d49" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Items.php" afterPath="$PROJECT_DIR$/app/Models/Items.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/GastosController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/GastosController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gastosadmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GastosController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GastosController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/GastosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="551">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.5776" vertical-offset="0" max-vertical-offset="625">
+              <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -57,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Items.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Items.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Items.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72727275" vertical-offset="0" max-vertical-offset="627">
+            <state vertical-scroll-proportion="-16.285715" vertical-offset="0" max-vertical-offset="627">
               <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
               <folding>
                 <element signature="e#38#77#0#PHP" expanded="true" />
@@ -109,13 +110,13 @@
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/CrearGastosController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_10_14_184404_create_registro_gastos_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/GastosController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/database/seeds/ItemsTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Models/RegistroGastos.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/ListaItemsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/ReporteController.php" />
         <option value="$PROJECT_DIR$/app/Models/Items.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/GastosController.php" />
       </list>
     </option>
   </component>
@@ -549,32 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/ListaItemsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.571428" vertical-offset="0" max-vertical-offset="608">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-          <folding>
-            <element signature="e#52#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/GastosController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="551">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="418">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/ReporteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.464286" vertical-offset="76" max-vertical-offset="2242">
@@ -585,7 +560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Items.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72727275" vertical-offset="0" max-vertical-offset="627">
+        <state vertical-scroll-proportion="-16.285715" vertical-offset="0" max-vertical-offset="627">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding>
             <element signature="e#38#77#0#PHP" expanded="true" />
@@ -605,6 +580,32 @@
             <marker date="1476913262000" expanded="true" signature="669:975" placeholder="SELECT item_..registro_gastos..." />
             <marker date="1476913262000" expanded="true" signature="669:979" placeholder="SELECT fecha..registro_gastos..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="418">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/ListaItemsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.571428" vertical-offset="0" max-vertical-offset="608">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <element signature="e#52#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/GastosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5776" vertical-offset="0" max-vertical-offset="625">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>

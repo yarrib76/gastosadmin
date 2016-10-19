@@ -20,7 +20,8 @@ class GastosController extends Controller
     }
 
     public function delete(){
-        $gastos = RegistroGastos::find(Input::get('id'));
+        $gastos = RegistroGastos::find(Input::get('item_id'));
         $gastos->delete();
+        return ['codigo' => 1];
     }
 }
