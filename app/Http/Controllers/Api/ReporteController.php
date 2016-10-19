@@ -16,7 +16,9 @@ class ReporteController extends Controller
         $anio = Input::get('anio');
         $mes = Input::get('mes');
         $gastos = RegistroGastos::where('fecha', '>=' , $anio . '/' . $mes . '/01')
-            ->where('fecha', '<=', $anio . '/'. $mes . '/31')->get();
+            ->where('fecha', '<=', $anio . '/'. $mes . '/31')
+            ->where('item_id', Input::get('item_id'))
+            ->get();
         $gastos = $this->formateoDatos($gastos);
         return Response::json($gastos);
     }

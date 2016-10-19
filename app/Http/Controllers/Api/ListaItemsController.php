@@ -5,7 +5,6 @@ namespace GastosAdmin\Http\Controllers\Api;
 use GastosAdmin\Models\Items;
 use GastosAdmin\Http\Requests;
 use GastosAdmin\Http\Controllers\Controller;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Response;
 
@@ -20,7 +19,7 @@ class ListaItemsController extends Controller
         $call = Input::get('call');
         if ($call == "full"){
             return Response::json($listaItemsTotal->itemsTotalAnioMes($anio,$mes));
-        } 
+        }
         return Response::json($listaItemsTotal->itemsTotal());
     }
 
