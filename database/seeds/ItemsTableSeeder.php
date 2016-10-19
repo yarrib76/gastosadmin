@@ -54,5 +54,8 @@ class ItemsTableSeeder extends Seeder
         Items::create([
             'nombre' => 'Impuestos'
         ]);
+        Items::create([
+            'nombre' => 'Auto'
+        ]);
     }
 }

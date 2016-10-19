@@ -12,4 +12,5 @@ class RegistroGastos extends Model
     public function items(){
         return $this->belongsTo('GastosAdmin\Models\Items', 'item_id');
     }
+
 }
